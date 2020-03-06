@@ -10,7 +10,7 @@ test: check_fruit {
   }
 
   assert: the_first_fruit_is_an_orange {
-    expression: ${fruit.name} = "orange" ;;
+    expression: ${fruit.name} = "apple" ;;
   }
 }
 
